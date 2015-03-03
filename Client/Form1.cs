@@ -29,7 +29,7 @@ namespace Hitearth
                 var s3 = RemotingConfiguration.GetRegisteredWellKnownClientTypes();
 
                 talk = (ILog)Activator.GetObject(typeof(ILog), s3[0].ObjectUrl);
-                //talk = new Talker();
+               
                 var ss = talk.Ping("Hello");
                 MessageBox.Show("连接成功。\r\n" + ss);
 

@@ -52,13 +52,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SerialConfig.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SerialConfig.Designer.cs">
-      <DependentUpon>SerialConfig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Talker.cs" />
     <Compile Include="Tool\CMDHelper.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -73,9 +66,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SerialConfig.resx">
-      <DependentUpon>SerialConfig.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="channels.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
