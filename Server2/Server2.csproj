@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{069A80CD-4EBB-480F-90F4-2CBB66E6102E}</ProjectGuid>
+    <ProjectGuid>{BEC27A5D-362A-4D1D-ADD2-AB042E7D2B9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hitearth</RootNamespace>
@@ -65,6 +65,7 @@
     <Compile Include="Talker.cs" />
     <Compile Include="Tool\Config.cs" />
     <Compile Include="Tool\C.cs" />
+    <Compile Include="Tool\TimerManager.cs" />
     <Compile Include="Tool\utils.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -76,9 +77,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="App.config" />
     <None Include="channels.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
